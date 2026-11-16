@@ -1,6 +1,6 @@
 # nCore – Open in Nuvio
 
-Userscript, ami az nCore film- és sorozatsoraihoz két gombot tesz:
+Userscript, ami az nCore-on a filmekhez és sorozatokhoz két gombot tesz:
 
 - **Nuvio logó** – megnyitja a címet a [Nuvio](https://github.com/NuvioMedia) appban az IMDb-azonosító alapján (`nuvio://meta?type=movie&id=tt…`).
 - **StremHU ikon** – pontosan azt az nCore-torrentet nyitja meg Nuvióban a [StremHU Source](https://github.com/s4pp1/stremhu-source) addonon keresztül (`nuvio://meta?type=movie&id=stremhu-source:ncore:<torrent-id>`).

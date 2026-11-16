@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         nCore – Open in Nuvio
 // @namespace    https://github.com/emgeje/ncore-open-in-nuvio
-// @version      1.0.0
-// @description  Nuvio (IMDb) és StremHU (torrent) gombok az nCore film- és sorozatsoraihoz
+// @version      1.0.1
+// @description  Nuvio (IMDb) és StremHU (torrent) gombok az nCore-on a filmekhez és sorozatokhoz
 // @author       emgeje
 // @license      MIT
 // @homepageURL  https://github.com/emgeje/ncore-open-in-nuvio

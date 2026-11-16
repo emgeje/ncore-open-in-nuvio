@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\nuvio]
+@="URL:Nuvio Protocol"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\nuvio\shell\open\command]
+@="powershell.exe -NoProfile -WindowStyle Hidden -Command \"Stop-Process -Name Nuvio -EA 0; Start-Sleep -m 700; Start-Process 'C:\\Program Files\\Nuvio\\Nuvio.exe' -ArgumentList '%1'\""

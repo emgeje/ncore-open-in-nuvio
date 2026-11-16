@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\nuvio]
+@="URL:Nuvio Protocol"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\nuvio\shell\open\command]
+@="\"C:\\Program Files\\Nuvio\\Nuvio.exe\" \"%1\""

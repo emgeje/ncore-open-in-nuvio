@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         nCore → Nuvio
-// @namespace    https://github.com/emgeje/ncore-nuvio
+// @name         nCore – Open in Nuvio
+// @namespace    https://github.com/emgeje/ncore-open-in-nuvio
 // @version      1.0.0
 // @description  Nuvio (IMDb) és StremHU (torrent) gombok az nCore film- és sorozatsoraihoz
 // @author       emgeje
 // @license      MIT
-// @homepageURL  https://github.com/emgeje/ncore-nuvio
-// @supportURL   https://github.com/emgeje/ncore-nuvio/issues
-// @updateURL    https://raw.githubusercontent.com/emgeje/ncore-nuvio/main/ncore-nuvio.user.js
-// @downloadURL  https://raw.githubusercontent.com/emgeje/ncore-nuvio/main/ncore-nuvio.user.js
+// @homepageURL  https://github.com/emgeje/ncore-open-in-nuvio
+// @supportURL   https://github.com/emgeje/ncore-open-in-nuvio/issues
+// @updateURL    https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/ncore-open-in-nuvio.user.js
+// @downloadURL  https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/ncore-open-in-nuvio.user.js
 // @match        https://ncore.pro/*
 // @resource     nuvioLogo https://raw.githubusercontent.com/NuvioMedia/NuvioTV/dev/assets/brand/app_logo_wordmark.png
 // @resource     stremhuLogo https://raw.githubusercontent.com/s4pp1/stremhu-source/main/docs/assets/logo.png

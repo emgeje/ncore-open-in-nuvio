@@ -1,4 +1,4 @@
-# nCore → Nuvio
+# nCore – Open in Nuvio
 
 Userscript, ami az nCore film- és sorozatsoraihoz két gombot tesz:
 
@@ -12,7 +12,7 @@ A torrentlistában és a torrent adatlapján is működik.
 1. Telepíts egy userscript-kezelőt:
    - **Asztali gép:** [Violentmonkey](https://violentmonkey.github.io/) vagy [Tampermonkey](https://www.tampermonkey.net/) (Chrome/Edge alatt a bővítményeknél a *Fejlesztői mód* is kell).
    - **Android:** lásd [lent](#android).
-2. Nyisd meg: **[ncore-nuvio.user.js](https://raw.githubusercontent.com/emgeje/ncore-nuvio/main/ncore-nuvio.user.js)** – a kezelő felajánlja a telepítést.
+2. Nyisd meg: **[ncore-open-in-nuvio.user.js](https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/ncore-open-in-nuvio.user.js)** – a kezelő felajánlja a telepítést.
 
 A script a repóból automatikusan frissül.
 
@@ -22,7 +22,7 @@ Androidon a **Firefox** böngészőben fut a script, mert a Firefox támogatja a
 
 1. Telepítsd a [Firefoxot](https://play.google.com/store/apps/details?id=org.mozilla.firefox) a Play Áruházból.
 2. Firefoxban: menü (⋮) → **Kiegészítők** → **Violentmonkey** → hozzáadás.
-3. Firefoxban nyisd meg a [script linkjét](https://raw.githubusercontent.com/emgeje/ncore-nuvio/main/ncore-nuvio.user.js), és a Violentmonkey felajánlja a telepítést.
+3. Firefoxban nyisd meg a [script linkjét](https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/ncore-open-in-nuvio.user.js), és a Violentmonkey felajánlja a telepítést.
 4. Az nCore-on a gombra koppintva a Firefox megkérdezi, hogy megnyissa-e a Nuviót – engedélyezd.
 
 ## Melyik sorok kapnak gombot

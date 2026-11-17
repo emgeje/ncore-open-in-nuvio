@@ -51,11 +51,11 @@ A Windowsos Nuvio nem mindig regisztrálja magát a `nuvio://` linkekhez, ilyenk
 
 **Ha nem nyílik meg:**
 
-1. Töltsd le valamelyik registry-fájlt a [`windows`](windows) mappából:
-   - [`nuvio-protocol.reg`](windows/nuvio-protocol.reg) – a link elindítja a Nuviót. Ha a Nuvio már fut, **új példány** nyílik.
-   - [`nuvio-protocol-restart.reg`](windows/nuvio-protocol-restart.reg) – a link bezárja a futó Nuviót, és a megadott címmel újranyitja. Az épp futó lejátszás megszakad, és egy pillanatra felvillanhat egy PowerShell-ablak.
+1. Töltsd le valamelyik registry-fájlt (a linkre jobb klikk → *Hivatkozás mentése másként*):
+   - [`nuvio-protocol.reg`](https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/windows/nuvio-protocol.reg) – a link elindítja a Nuviót. Ha a Nuvio már fut, **új példány** nyílik.
+   - [`nuvio-protocol-restart.reg`](https://raw.githubusercontent.com/emgeje/ncore-open-in-nuvio/main/windows/nuvio-protocol-restart.reg) – a link bezárja a futó Nuviót, és a megadott címmel újranyitja. Az épp futó lejátszás megszakad, és egy pillanatra felvillanhat egy PowerShell-ablak.
 2. A fájlok a `C:\Program Files\Nuvio\Nuvio.exe` útvonalat használják. Ha nálad máshol van (Start menü → jobb klikk a Nuvióra → *Fájl helyének megnyitása*), nyisd meg a fájlt Jegyzettömbben, és írd át. Az útvonalban a `\` jeleket duplán kell írni.
-3. Kattints duplán a fájlra, és engedélyezd a beírást. Rendszergazdai jog nem kell, csak a saját felhasználódra vonatkozik.
+3. Ellenőrizd Jegyzettömbben, hogy a fájl első sora `Windows Registry Editor Version 5.00` – ha HTML-kódot látsz, a GitHub-oldalt mentetted el, nem a fájlt. Kattints duplán a fájlra, és engedélyezd a beírást. Rendszergazdai jog nem kell, csak a saját felhasználódra vonatkozik.
 4. Próbáld újra a Win+R-es ellenőrzést.
 
 A `restart` változatnál, ha a Nuvio nem záródik be, a folyamat neve nem `Nuvio` – a pontos nevet a Feladatkezelő *Részletek* fülén látod, ezt írd a `-Name` után.
